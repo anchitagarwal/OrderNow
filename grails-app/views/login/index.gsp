@@ -5,6 +5,7 @@
 <title>OrderNow Login</title>
 
 <link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/roboto.css" rel="stylesheet" type="text/css">
 
 <style type="text/css">
 body {
@@ -28,7 +29,7 @@ body {
 			class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 			<div class="panel panel-info">
 				<div class="panel-heading">
-					<div class="panel-title">Sign In</div>
+					<div class="panel-title" style="font-family: roboto, sans-serif; font-weight: 500">Sign In</div>
 				</div>
 
 				<div style="padding-top: 30px" class="panel-body">
@@ -43,14 +44,14 @@ body {
 							<span class="input-group-addon"><i
 								class="glyphicon glyphicon-user"></i></span> <input id="login-username"
 								type="text" class="form-control" name="username" value=""
-								placeholder="email address">
+								placeholder="email address" style="font-family: roboto, sans-serif">
 						</div>
 
 						<div style="margin-bottom: 25px" class="input-group">
 							<span class="input-group-addon"><i
 								class="glyphicon glyphicon-lock"></i></span> <input id="login-password"
 								type="password" class="form-control" name="password"
-								placeholder="password">
+								placeholder="password" style="font-family: roboto, sans-serif">
 						</div>
 
 
@@ -58,7 +59,7 @@ body {
 						<div class="input-group">
 							<div class="checkbox">
 								<label> <input id="login-remember" type="checkbox"
-									name="remember" value="1"> Remember me
+									name="remember" value="1" > <div style="font-family: roboto, sans-serif">Remember me</div>
 								</label>
 							</div>
 						</div>
@@ -69,7 +70,7 @@ body {
 
 							<div class="col-sm-12 controls">
 								<input id="btn-login" type="submit" value="Login"
-									class="btn btn-success" />
+									class="btn btn-success" style="font-family: roboto, sans-serif"/>
 							</div>
 						</div>
 

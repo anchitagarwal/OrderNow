@@ -18,45 +18,6 @@ body {
 </head>
 
 <body>
-
-	<!-- <div class="container">
-	
-		<div class="row">
-			<div class="col-md-12">
-				<div class="pr-wrap">
-					<div class="pass-reset">
-						<label> Enter the email you signed up with</label> <input
-							type="email" placeholder="Email" /> <input type="submit"
-							value="Submit" class="pass-reset-submit btn btn-success btn-sm" />
-					</div>
-				</div>
-				<div class="wrap">
-					<p class="form-title">Sign In</p>
-					<g:form class="login" controller="Login" action="UserAuthentication" method="POST">
-						<input type="text" name="username" placeholder="Username" /> <input
-							type="password" name="password" placeholder="Password" /> <input type="submit"
-							value="Sign In" class="btn btn-success btn-sm" />
-						<div class="remember-forgot">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="checkbox">
-										<label> <input type="checkbox" /> Remember Me
-										</label>
-									</div>
-								</div>
-							</div>
-						</div>
-					</g:form>
-				</div>
-			</div>
-		</div>
-		
-		<g:if test="${fail_flag == '1' }">
-				<div class="alert alert-warning" align="center">Authentication Not Successful. Please try again.</div>
-		</g:if>
-		
-	</div> -->
-
 	<div class="container">
 	
 		<g:if test="${fail_flag == '1' }">

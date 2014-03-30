@@ -41,7 +41,7 @@ class LoginController {
 		
 		def sql = Sql.newInstance(dbURL, dbUser, dbPassword, dbDriver)
 		
-		def checkAdminQuery = 'select id from users where email="' + user + '" and pass = "' + pass + '" and user_type=3'
+		def checkAdminQuery = 'select id from users where email = "' + user + '" and pass = "' + pass + '" and user_type=3'
 		def status = sql.rows(checkAdminQuery)
 		if (status.size() > 0) {
 			return true
